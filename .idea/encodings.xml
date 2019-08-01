@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-basics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-basics/car-basics-springcloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-basics/car-basics-springcloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-service-api/car-service-api-parade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-service-api/car-service-api-registered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-service-impl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-service-impl/car-service-impl-parade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/car-service-platfrom-service-impl/car-service-impl-registered" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,52 @@
+server:
+  port: 8200
+#  tomcat:
+#    uri-encoding: UTF-8
+#    max-threads: 10
+
+
+spring:
+  application:
+    name: app-tw-registered
+eureka:
+  instance:
+    hostname: 127.0.0.1
+
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8100/eureka/
+
+    register-with-eureka: true
+    fetch-registry: true
+
+####swagger相关配置
+swagger:
+  base-package: com.tw.registered
+  title: 网约车注册模块接口
+  description: 该项目基于SpringCloud2
+  version: 1.1
+  contact:
+    name: XHH
+
+feign:
+  hystrix:
+enabled: true
+
+hystrix:
+  command:
+    default:  #default全局有效，service id指定应用有效
+      execution:
+        timeout:
+          #如果enabled设置为false，则请求超时交给ribbon控制,为true,则超时作为熔断根据
+          enabled: true
+        isolation:
+          thread:
+           timeoutInMilliseconds: 2000 #断路器超时时间，默认1000ms
+#        circuitBreaker:
+#          requestVolumeThreshold: 3 #时间滚动中最小请求参数，只有在一个统计窗口内处理的请求数量达到这个阈值，才会进行熔断与否的判断
+#          enabled: true #设置熔断
+#          errorThresholdPercentage: 40
+####打印mybatias日志
+      logging:
+        level:
+          xxxx.mapper: INFO

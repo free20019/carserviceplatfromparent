@@ -1,0 +1,30 @@
+server:
+  port: 8300
+spring:
+  application:
+    name: app-tw-parade
+eureka:
+  instance:
+    hostname: 127.0.0.1
+
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8100/eureka/
+
+    register-with-eureka: true
+    fetch-registry: true
+
+####swagger相关配置
+swagger:
+  base-package: com.tw.parade
+  title: 网约车巡游车模块接口
+  description: 该项目基于SpringCloud2
+  version: 1.1
+  terms-of-service-url: www.xhh.com
+  contact:
+    name: xhh
+    email: 1185719419@qq.com
+####打印mybatias日志
+logging:
+  level:
+    xxxx.mapper: INFO

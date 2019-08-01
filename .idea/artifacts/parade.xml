@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="parade">
+    <output-path>$PROJECT_DIR$/out/artifacts/parade</output-path>
+    <root id="archive" name="parade.jar">
+      <element id="module-output" name="carserviceimplparade" />
+    </root>
+  </artifact>
+</component>

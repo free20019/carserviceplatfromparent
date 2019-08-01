@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="registered">
+    <output-path>$PROJECT_DIR$/out/artifacts/registered</output-path>
+    <root id="archive" name="registered.jar">
+      <element id="module-output" name="carserviceimplregistered" />
+    </root>
+  </artifact>
+</component>
