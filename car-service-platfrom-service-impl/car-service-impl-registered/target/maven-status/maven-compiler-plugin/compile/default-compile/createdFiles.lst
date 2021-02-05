@@ -1,0 +1,8 @@
+com\tw\registered\mybatis\dao\UserMapper.class
+com\tw\registered\entity\PictureResp.class
+com\tw\registered\mybatis\service\UserService.class
+com\tw\registered\control\PictureController.class
+com\tw\registered\control\RegisteredController.class
+com\tw\registered\aop\WebLogAspect.class
+com\tw\registered\App.class
+com\tw\registered\error\GlobalExceptionHandler.class
